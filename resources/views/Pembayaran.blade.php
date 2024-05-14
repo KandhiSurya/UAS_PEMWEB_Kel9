@@ -1,13 +1,14 @@
 @extends('layout.main-dashboard')
-@section('timbangan')
+@section('pembayaran')
 
 @include('template.navbar')
 
 <div class="container-fluid">
-  @include('template.sidebar')
-  <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+    @include('template.sidebar')
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
 
-        <h2>Hasil Timbangan</h2>
+
+        <h2>Hasil Pembayaran</h2>
         <div class="table-responsive small">
             <table class="table table-striped table-sm">
               <thead>
@@ -47,6 +48,8 @@
 
 
 
-      </div>
-    </main>
-@endsection
+
+
+
+    </div>
+</main>
