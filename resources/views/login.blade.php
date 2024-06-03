@@ -16,9 +16,9 @@
 
 
 <body class="MainBackground">
-    
 
-@include('template/navbar') 
+
+@include('TampilanUser.template/navbar')
 <section class="d-flex align-items-center py-4 ">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="check2" viewBox="0 0 16 16">
@@ -71,10 +71,10 @@
       </ul>
     </div>
 
-    
+
 <main class="form-signin w-100 m-auto">
   <form>
-   
+
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
     <div class="form-floating">

@@ -1,10 +1,10 @@
-@extends('layout.main-dashboard')
+@extends('Admin.layout.main-dashboard')
 @section('body')
 
-@include('template.navbar')
+@include('Admin.template.navbar')
 <link rel="stylesheet" href="css/style-admin.css">
 <div class="container-fluid">
-  @include('template.sidebar')
+  @include('Admin.template.sidebar')
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">

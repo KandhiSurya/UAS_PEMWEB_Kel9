@@ -24,6 +24,12 @@
               </a>
             </li>
             <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2 {{$tittle === 'home' ? 'active' : ''}} " aria-current="page" href="/admin">
+                <svg class="bi"><use xlink:href="#house-fill"/></svg>
+                HomepageUser
+              </a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2 {{$tittle === 'timbangan' ? 'active' : ''}}" href="/admin/timbangan">
                 <svg class="bi"><use xlink:href="#file-earmark"/></svg>
                 Hasil timbangan
